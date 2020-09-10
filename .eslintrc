@@ -1,0 +1,112 @@
+{
+  "parserOptions":  {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": [
+    "react-app",
+    "plugin:jsdoc/recommended"
+  ],
+  "plugins": [
+    "jsdoc",
+    "promise",
+    "react-hooks",
+    "jsx-a11y"
+  ],
+  "rules": {
+    "jsdoc/require-property-description": "off",
+    "jsdoc/require-returns-description": "off",
+    "jsdoc/require-param-description": "off",
+    "jsdoc/require-description-complete-sentence": [
+      "warn",
+      { "tags": ["see", "copyright"] }
+    ],
+    
+    "import/no-unresolved": 1,
+    "import/no-default-export": 0,
+    "import/no-duplicates": 1,
+    "import/no-mutable-exports": 1,
+    
+    "no-unused-vars": "warn",
+    "arrow-body-style": "warn",
+    "consistent-return": 1,
+    "no-shadow": 1,
+    "no-use-before-define": 1,
+    "no-param-reassign": 1,
+    "camelcase": 1,
+    "default-case": 1,
+    "no-multi-assign": 1,
+    "no-restricted-syntax": 1,
+    "no-prototype-builtins": 1,
+    "no-nested-ternary": 1,
+    "no-return-assign": 1,
+    "prefer-destructuring": 1,
+    "array-callback-return": 1,
+    "class-methods-use-this": 1,
+    "no-useless-escape": 1,
+    "no-underscore-dangle": 1,
+    "prefer-promise-reject-errors": 1,
+    "no-restricted-globals": 1,
+    "array-bracket-spacing": 1,
+    "semi": 1,
+    "comma-dangle": ["warn", "always-multiline"],
+    "indent": ["warn", 2],
+
+    "react/jsx-handler-names": 1,
+    "react/no-multi-comp": 1,
+    "react/sort-comp": 1,
+    "react/no-array-index-key": 1,
+    "react/forbid-prop-types": 1,
+    "react/no-unescaped-entities": 1,
+    "react/no-did-update-set-state": 1,
+    "react/no-unused-prop-types": 1,
+    "react/jsx-pascal-case": 1,
+    "react/prop-types": 1,
+    "react/jsx-sort-props": 1,
+    "react/sort-prop-types": ["warn", {
+      "callbacksLast": true,
+      "ignoreCase": true,
+      "requiredFirst": true,
+      "sortShapeProp": true,
+      "noSortAlphabetically": true
+    }],
+    "react/boolean-prop-naming": 1,
+    "react/jsx-props-no-multi-spaces": 1,
+    "react/jsx-wrap-multilines": 1,
+    "react/jsx-max-props-per-line": [1, { "maximum": 1, "when": "always" }],
+    "react/jsx-first-prop-new-line": [1, "multiline"],
+    "react/button-has-type": 1,
+    "react/jsx-uses-vars": "warn",
+    "react/jsx-space-before-closing": 1,
+    "react/jsx-equals-spacing": 1,
+    "react/jsx-curly-spacing": [1, {"when": "never"}],
+    "react/jsx-curly-newline": [1, { "multiline": "consistent", "singleline": "consistent" }],
+    "react/jsx-closing-bracket-location": [1, "tag-aligned"],
+    "react/jsx-key": 1,
+    "react/jsx-no-duplicate-props": 1,
+    "react/jsx-no-target-blank": [1, { "allowReferrer": false }],
+    "react/jsx-no-undef": 1,
+    "react/jsx-no-useless-fragment": 1,
+    "react/jsx-sort-default-props": 1,
+    "react/jsx-tag-spacing": [1, {"beforeClosing": "never"}],
+
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+
+    "promise/always-return": "warn",
+    "promise/no-return-wrap": "warn",
+    "promise/param-names": "warn",
+    "promise/catch-or-return": "warn",
+    "promise/no-native": "off",
+    "promise/no-nesting": "warn",
+    "promise/no-promise-in-callback": "warn",
+    "promise/no-callback-in-promise": "warn",
+    "promise/avoid-new": "warn",
+    "promise/no-new-statics": "warn",
+    "promise/no-return-in-finally": "warn",
+    "promise/valid-params": "warn"
+  }
+}
