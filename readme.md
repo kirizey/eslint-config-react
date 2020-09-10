@@ -2,7 +2,7 @@
 
 ## Installation
 ```
-npx install-peerdeps --dev eslint-config-react-kirizey
+npm i -D eslint-config-react-kirizey
 ```
 
 ## Usage
