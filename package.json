@@ -1,7 +1,6 @@
 {
-  "name": "eslint-config-react",
+  "name": "eslint-config-react-kirizey",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -29,5 +28,7 @@
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react-hooks": "^4.1.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
